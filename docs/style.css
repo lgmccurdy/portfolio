@@ -1,30 +1,98 @@
 
-            body {
-                background-color: #D2B4DE;
-                font-family: "Helvetica Neue", "Arial", sans-serif;
-            }
-            section {
-                background: #E6E6FA;
-                width: 60%;
-                margin: auto;
-                }
-               
-               .gil {
-              width:30%;
-              }
-             
-             .babyaxo {
-             width:20%;
-             }
-                .albino {
-             width:30%;
-             }
-             .smilingaxo {
-             width:50%;
-             }
-                
-                
-              
-       
-      
-        
+body {
+    background-color: #D2B4DE;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+section {
+    background: #E6E6FA;
+    width: 60%;
+    margin: auto;
+}
+
+.gil {
+    width: 30%;
+}
+
+.babyaxo {
+    width: 20%;
+}
+.albino {
+    width: 30%;
+}
+.smilingaxo {
+    width: 50%;
+}
+
+
+.photo {
+  width: 30%;
+  height: 32%;
+  display: inline-block;
+  background: red;
+  border: 5px solid #D2B4DE ;
+  }
+  .phototwo {
+  width: 30%;
+  height:32%;
+  display: inline-block;
+  background: red;
+   border: 5px solid #D2B4DE ;
+   }
+   .photothree {
+  width: 30%;
+  height: 32%;
+  display: inline-block;
+  background: red;
+   border: 5px solid #D2B4DE ;
+    
+}
+.photofour {
+  width: 30%;
+  height: 32%;
+  display: inline-block;
+  background: red;
+   border: 5px solid #D2B4DE ;
+  }
+  .photofive {
+  width: 30%;
+  height: 32%;
+  display: inline-block;
+  background: red;
+   border: 5px solid #D2B4DE ;
+  }
+  .photosix {
+  width: 30%;
+  height: 32%;
+  display: inline-block;
+  background: red;
+   border: 5px solid #D2B4DE ;
+  }
+     .galone {
+      display: grid;
+      place-items: center;
+      border-style: dashed;
+    border-color: whitesmoke;
+    background: linear-gradient(to right, #ffc0cb, #ffffff);
+    width: 70%;
+    margin: auto;
+    
+    
+    }
+     .galtwo {
+      display: grid;
+      place-items: center;
+      border-style: dashed;
+    border-color: whitesmoke;
+    background: linear-gradient(to right, #ffc0cb, #ffffff);
+    width: 70%;
+     margin: auto;
+    
+   
+    
+    }
+
+
+  
+
+
+
