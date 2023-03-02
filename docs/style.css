@@ -1,98 +1,106 @@
 
 body {
-    background-color: #D2B4DE;
+    background-color: #E1B0AC;
     font-family: "Helvetica Neue", "Arial", sans-serif;
+     margin-top: 80px;
 }
 section {
-    background: #E6E6FA;
-    width: 60%;
-    margin: auto;
-}
-
-.gil {
-    width: 30%;
-}
-
-.babyaxo {
-    width: 20%;
-}
-.albino {
-    width: 30%;
-}
-.smilingaxo {
-    width: 50%;
-}
-
-
-.photo {
-  width: 30%;
-  height: 32%;
-  display: inline-block;
-  background: red;
-  border: 5px solid #D2B4DE ;
-  }
-  .phototwo {
-  width: 30%;
-  height:32%;
-  display: inline-block;
-  background: red;
-   border: 5px solid #D2B4DE ;
-   }
-   .photothree {
-  width: 30%;
-  height: 32%;
-  display: inline-block;
-  background: red;
-   border: 5px solid #D2B4DE ;
-    
-}
-.photofour {
-  width: 30%;
-  height: 32%;
-  display: inline-block;
-  background: red;
-   border: 5px solid #D2B4DE ;
-  }
-  .photofive {
-  width: 30%;
-  height: 32%;
-  display: inline-block;
-  background: red;
-   border: 5px solid #D2B4DE ;
-  }
-  .photosix {
-  width: 30%;
-  height: 32%;
-  display: inline-block;
-  background: red;
-   border: 5px solid #D2B4DE ;
-  }
-     .galone {
-      display: grid;
-      place-items: center;
-      border-style: dashed;
-    border-color: whitesmoke;
-    background: linear-gradient(to right, #ffc0cb, #ffffff);
     width: 70%;
     margin: auto;
-    
-    
-    }
-     .galtwo {
-      display: grid;
-      place-items: center;
+}
+
+
+     div.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
       border-style: dashed;
     border-color: whitesmoke;
-    background: linear-gradient(to right, #ffc0cb, #ffffff);
-    width: 70%;
-     margin: auto;
-    
-   
+    background: #F2D4D6;
+    margin: auto;
+    width:80%;
+    height:350px;
+
     
     }
+    div.container img {
+    max-width: 500px;
+    width: 90%;
+    
+}
+figure figcaption {
+    text-align: center;
+      font-family: "Century Gothic,CenturyGothic,AppleGothic,sans-serif"; 
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+     box-shadow: 0 0 15px 0 black;
+     font-family: "Century Gothic,CenturyGothic,AppleGothic,sans-serif"; 
+     z-index: 1;
+     
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+     
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
 
-
+header nav {
+margin: auto;
+}
+   .gallerytext {
+        text-align: center;
+        background: #F2D4D6;
+      
+}   
+ .box {
+      width:500px;
+      height: 350px;
+  padding-top:5px;
+   background: #F2D4D6;
+  padding-left:8px;
+  padding-bottom:10px;
+  position:relative; left:300px; top:150px;
+  font-size: 20px;
+  text-align: left;
+ }
+  .portrait {
+    float: left;
+   position:relative; left:100px; top:-350px;
+     height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
+ 
   
+  }
+  .ResumeHeader {
+        text-align: center;
+        background: #F2D4D6;
+         width: 30%;
+        margin: auto;
+        }
+        .name{
+             text-align: center;
+        }
+      hr {
+  height:2px;
+  border-width:0;
+  background-color:black;
+}
 
 
 
