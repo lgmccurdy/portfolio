@@ -25,7 +25,7 @@ section {
     }
     div.container img {
     max-width: 500px;
-    width: 90%;
+    width: 80%;
     
 }
 figure figcaption {
@@ -101,6 +101,24 @@ margin: auto;
   border-width:0;
   background-color:black;
 }
+.ReflectiveEssayHeader {
+        text-align: center;
+        }
 
+.reflection {
+      width:900px;
+      height: 700px;
+  padding-top:5px;
+   background: #F2D4D6;
+  padding-left:15px;
+   padding-right:15px;
+  padding-bottom:10px;
+  position:relative; top: 10px;
+  font-size: 20px;
+  text-align: left;
+ }
+div.a {
+  text-indent: 50px;
+}
 
 
