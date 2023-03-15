@@ -79,7 +79,7 @@ margin: auto;
  }
   .portrait {
     float: left;
-   position:relative; left:100px; top:-350px;
+   position:relative;  top:-350px;
      height: auto; 
     width: auto; 
     max-width: 600px; 
