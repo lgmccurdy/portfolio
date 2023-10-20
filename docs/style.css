@@ -147,17 +147,7 @@ height:650px;
 width:100%; 
 height:650px;
 }
- div.objectscontainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-      border-style: dashed;
-    border-color: whitesmoke;
-    background: #cc9999;
-    margin: auto;
-    width:90%;
-    height: 500%
-    }
+
     
   
 
