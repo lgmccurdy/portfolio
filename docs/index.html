@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>Home</title>
+
+        <title>Lauren's Portfolio: Home</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"
+            rel="stylesheet" />
+        <script src="script.js"></script>
     </head>
+
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Lauren McCurdy, Digital Media, Arts, and Technology, PSU </h1>
         <header>
             <nav>
                 <ul>
                     <li>
-                        <a href="index.html"> Home </a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li>
-                        <a href="gallery.html">Gallery</a></li>
-                    <li>
-                        <a href="about.html">Reflection</a></li>
-                    <li>
-                        <a href="corpus.analysis.html">Corpus Analysis</a></li>
-                    <li>
-                        <a href="timemapper.html">Time Mapper</a>
+                        <a href="index.html"> Home </a>
                     </li>
                     <li>
-                        <a href="game.analysis.html"> Game Analysis</a>
+                        <a href="resume.html">Resume</a>
                     </li>
                     <li>
-                        <a href="htmlExercise_2.html"> HTML Exercise 2</a>
+                        <a href="projects.html">Projects</a>
                     </li>
-
                 </ul>
             </nav>
+            <div class="social-links">
+                <a href="https://github.com/lgmccurdy" target="_blank" class="icon">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        alt="GitHub" />
+                </a>
+                <a href="https://www.linkedin.com/in/lgmccurdy/" target="_blank" class="icon">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                        alt="LinkedIn" />
+                </a>
+            </div>
         </header>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                alt="Creative Commons License" style="border-width:0"
-                src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
-        </a> <section class="box">
-            <h2> About Me</h2>
-            <p> My name is Lauren McCurdy, I am currently a freshman in the Digital Media, Arts, and
-                Technology Program and Penn State Behrend. I will be focusing on Digital Humanities
-                and Sound and Motion course options. </p>
-            <p> I enjoy video editing with softwares like Adobe After Effects along with drawing and
-                experimenting with different mediums.</p>
+        <h1 class="name">Hi, I'm Lauren</h1>
+        <br />
+        <section>
+            <h2>About Me</h2>
+            <p>Hello, my name is Lauren McCurdy. I am a junior at Penn State Behrend majoring in
+                Digital Media, Arts, and Technology. I am passionate about exploring and creating
+                with various digital applications, including web development and interactive media.
+                I am eager to further develop my skills by gaining hands-on experience with new
+                technologies and finding innovative ways to incorporate them into creative projects.
+            </p>
         </section>
-        <figure>
-            <img src="images/senoirpic.jpg" alt="Image of Myself" class="portrait" />
-        </figure>
+        <img src="images/girl.png" class="stick-fig" />
+        <footer>
+
+            <p>This work is licensed under a <a rel="license"
+                    href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative
+                    Commons Attribution 4.0 International License</a>. <a rel="license"
+                    href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+                    <img alt="Creative Commons License"
+                        src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="width: 50px;"
+                     />
+                </a></p>
+
+
+
+        </footer>
+
+
     </body>
 </html>

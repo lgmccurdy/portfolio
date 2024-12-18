@@ -1,156 +1,220 @@
-/*This is for the  whole site*/
+
 body {
-    background-color: #E1B0AC;
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-     margin-top: 80px;
+    background-color: #F7EEED;
+    font-family: "Geist", serif;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+   
+    
 }
 
+.name {
+    font-family: "Geist", serif;
+    font-style: normal;
+    margin-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+      z-index: 1; /* Keeps About Me text above the image */
+    
+}
+
+h1 {
+    font-family: "Geist", serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+.stick-fig {
+     position: absolute;
+      top: 34%;
+      left: 65%;
+      width: 45%;
+      height: auto;
+      z-index: 0;
+      opacity: 40%;
+     transform: rotate(-10deg); 
+
+}
+/* PROJECT STYLING*/
 section {
     width: 70%;
     margin: auto;
+     position: relative;
+      z-index: 1; 
+    
 }
 
-/*This is for essays like the corpus analysis */
-
-section.essay {
+section.projects {
     width: 90%;
-    margin: auto;
-    padding-left:15px;
-    padding-right:15px;
-    
-    background:#F2D4D6;
-
-     
-    
-}
-
-     div.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-      border-style: dashed;
-    border-color: whitesmoke;
-    background: #cc9999;
-    margin: auto;
-    width:90%;
-    height: 80%
-    
-    /*height:350px;*/
-
-    
-    }
-    div.container img {
-    max-width: 1000px;
-    width: 100%;
-    
-}
-figure figcaption {
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
-      font-family: "Century Gothic,CenturyGothic,AppleGothic,sans-serif"; 
 }
 
 
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
 
+div.container {
+    background-color: #fbf7f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 48%; 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 3px solid #F7EEED;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 270px;
+}
+
+div.container img {
+    max-width: 100%;
+    height: 230px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+div.container a {
+    font-family: "Geist", serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+div.container a:hover {
+    color: #cc9999;
+    transform: scale(1.2);
+}
+
+p {
+    text-align: left;
+    max-width: 90%;
+    line-height: 1.6;
+    word-spacing: 0.2em; 
+}
+
+div.container h2 {
+    font-family: "Geist", serif;
+}
+
+/* NAV BAR*/
 header {
-    background-color: #cc9999;
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 60px;
     display: flex;
     align-items: center;
-     box-shadow: 0 0 15px 0 black;
-     font-family: "Century Gothic,CenturyGothic,AppleGothic,sans-serif"; 
-     z-index: 1;
-     
+    justify-content: space-between;
+    font-family: "Geist", serif;
+    z-index: 1;
+    background-color: #fbf7f5;
+    padding: 0 20px; 
 }
-header * {
-    display: inline;
+
+
+header nav ul {
+    list-style: none; 
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    gap: 40px; 
 }
+
 header li {
-    margin: 20px;
-     
+    display: flex;
 }
+
 header li a {
     color: black;
     text-decoration: none;
+    font-size: 18px; 
+    transition: transform 0.3s ease, color 0.3s ease; 
 }
 
-header nav {
-margin: auto;
+header li a:hover {
+    color: #cc9999;
+    transform: scale(1.2); 
 }
-   .gallerytext {
-        text-align: center;
-        background: #F2D4D6;
-      
-}   
- .box {
-      width:500px;
-      height: 350px;
-  padding-top:15px;
-   background: #F2D4D6;
-  padding-left:15px;
-  padding-bottom:10px;
-  position:relative;;
-  font-size: 20px;
-  text-align: left;
- }
-  .portrait {
-    float: left;
-   position:relative;  top:-350px;
-     height: auto; 
-    width: auto; 
-    max-width: 600px; 
-    max-height: 600px;
- 
-  
-  }
-  .ResumeHeader {
-        text-align: center;
-        background: #F2D4D6;
-         width: 30%;
-        margin: auto;
-        }
-        .name{
-             text-align: center;
-        }
-      hr {
-  height:2px;
-  border-width:0;
-  background-color:black;
-}
-.ReflectiveEssayHeader {
-        text-align: center;
-        }
 
-.reflection {
-      width:900px;
-      height: 700px;
-  padding-top:5px;
-   background: #F2D4D6;
-  padding-left:15px;
-   padding-right:15px;
-  padding-bottom:10px;
-  position:relative; top: 10px;
-  font-size: 20px;
-  text-align: left;
- }
-div.a {
-  text-indent: 50px;
+.social-links {
+    display: flex;
+    gap: 20px;
 }
-.timemapper {
-width:80%; 
-height:650px;
+
+.social-links .icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
+.social-links .icon img:hover {
+    transform: scale(1.2);
+    opacity: 0.8; 
+}
+
+iframe {
+    width: 80%; 
+    height: 800px; 
+    margin: 0 auto; 
+    display: block; 
+
+}
+/* GAME ANALYSIS */
 .kumu {
-width:100%; 
-height:650px;
+    width: 100%;
+    height: 650px;
 }
 
-    
-  
+
+.gamecontainer {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    flex-wrap: nowrap; 
+}
+
+.gamecontainer figure {
+    flex: 1 1 auto; 
+    margin: 0 10px; 
+    text-align: center;
+}
+
+.gamecontainer img {
+    max-width: 100%; 
+    height: auto; 
+}
 
 
+/* FOOTER*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: "Geist", serif;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 10px;
+    z-index: 1000; 
+}
 
 
