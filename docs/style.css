@@ -41,17 +41,16 @@ h1 {
 section {
     width: 70%;
     margin: auto;
-     position: relative;
-      z-index: 1; 
     
 }
 
 section.projects {
-    width: 90%;
+    width: 80%;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
 }
+
 
 
 .wrapper {
@@ -76,6 +75,7 @@ div.container {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     min-height: 270px;
 }
+
 
 div.container img {
     max-width: 100%;
